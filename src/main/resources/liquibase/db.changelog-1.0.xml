@@ -92,4 +92,14 @@
                                  onDelete="CASCADE"
                                  onUpdate="RESTRICT"/>
     </changeSet>
+
+    <changeSet id="1.0.5" author="austin.pershing">
+        <insert tableName="roles">
+            <column name="name" value="ROLE_USER"/>
+        </insert>
+
+        <insert tableName="roles">
+            <column name="name" value="ROLE_ADMIN"/>
+        </insert>
+    </changeSet>
 </databaseChangeLog>
