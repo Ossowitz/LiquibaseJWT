@@ -32,6 +32,6 @@ public class JwtUserDetailsService implements UserDetailsService {
 
         JwtUser jwtUser = JwtUserFactory.create(user);
         log.info("IN loadUserByUsername - user with username: {} successfully loaded", username);
-        return null;
+        return jwtUser;
     }
 }
