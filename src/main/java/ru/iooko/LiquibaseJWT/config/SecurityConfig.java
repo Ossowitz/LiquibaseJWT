@@ -10,6 +10,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import ru.iooko.LiquibaseJWT.security.jwt.JwtConfigurer;
 import ru.iooko.LiquibaseJWT.security.jwt.JwtTokenProvider;
 
+/* Deprecated */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
